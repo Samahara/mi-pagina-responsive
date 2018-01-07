@@ -1,0 +1,95 @@
+/*para que todo quede adentro del container uso box-sizing*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto; /*para centrar el contenido.*/
+  max-width: 1200px; /*defino ambos width en pocentaje y pixéles*/
+  width: 100%; /*ó 1200px para hacerlo fijo.*/
+}
+
+/*Un content con espacio vacío que se agregue
+al inicio y al final de las filas*/
+.row::before,
+.row::after {
+  content: " ";
+  display: table;
+}
+
+.row::after {
+  clear: both;
+}
+
+/*Ya comienza el uso de pseudoselectores*/
+[class*="col-"] {
+  /*border: 3px solid white; se le agrega el borde y va a respetar el porcentaje total*/
+  min-height: 150px; /*tamaño estandar es 7px*/
+  float: left;
+  padding: 12px; /*espacio de los gutters*/
+}
+
+.col-1 {
+  background-color: #82B5E2;
+  width: 8.33%;
+}
+
+.col-2 {
+  background-color: #75D0D5;
+  width: 16.66%;
+}
+
+.col-3 {
+  background-color: #B0D98B;
+  width: 25%;
+}
+
+.col-4 {
+  background-color: #C3DF70;
+  width: 33.33%;
+}
+
+.col-5 {
+  background-color: #FD8A8F;
+  width: 41.66%;
+}
+
+.col-6 {
+  background-color: #FBC89D;
+  width: 50%;
+}
+
+.col-7 {
+  background-color: #FEF59A;
+  width: 58.33%;
+}
+
+.col-8 {
+  background-color: #B2ADB4;
+  width: 66.66%;
+}
+
+.col-9 {
+  background-color: #D2D2D2;
+  width: 75%;
+}
+
+.col-10 {
+  background-color: #E3BBB9;
+  width: 83.33%;
+}
+
+.col-11 {
+  background-color: #CBBAAA;
+  width: 91.66;
+}
+
+.col-12 {
+  background-color: #ECDFD9;
+  width: 100%;
+}
