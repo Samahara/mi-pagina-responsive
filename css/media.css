@@ -1,0 +1,58 @@
+@media screen and (max-width: 480px) {
+
+  #call_to_action {
+    font-size: 18px;
+  }
+
+  .header {
+    height: 70px;
+  }
+
+  [class*="card-title"] {
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+
+  .col-contact-us {
+    margin-right: 100px;
+    width: calc(100% - 100px);
+  }
+
+  .col-what-we-do {
+    margin: 0;
+    width: 100%;
+  }
+
+  p.text-c-u,
+  p.text-w-w-d {
+    font-size: 18px;
+  }
+
+  .col-logo {
+    font-size: 26px;
+    margin-top: 13px;
+    margin-left: 0px;
+    width: 60%;
+  }
+
+  .col-menu {
+    display: none;
+  }
+
+  .col-space-header {
+    width: 40%;
+  }
+
+  .photo-tagline {
+    background-size: 330%;
+    background-position: center;
+    height: 350px;
+    opacity: .6;
+    width: 100%;
+  }
+  
+  .tittle {
+    font-size: 30px;
+  }
+
+}
