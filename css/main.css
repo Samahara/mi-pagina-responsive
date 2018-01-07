@@ -29,13 +29,13 @@ h1 {
   width: 100%;
 }
 
-.card-title {
+[class*="card-title"] {
   border: 1px solid #DFDFDF;
   border-radius: 10px;
   float: left;
-  margin: 29px;
+  margin: 20px 0px 20px 80px;
   overflow: hidden;
-  width: calc(33.51% - 60px);
+  width: calc(31% - 70px);
 }
 
 .card-title > section.button-titles {
