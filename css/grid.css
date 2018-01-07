@@ -29,7 +29,7 @@ al inicio y al final de las filas*/
 /*Ya comienza el uso de pseudoselectores*/
 [class*="col-"] {
   /*border: 3px solid white; se le agrega el borde y va a respetar el porcentaje total*/
-  min-height: 150px; /*tamaño estandar es 7px*/
+  min-height: 7px; /*tamaño estandar es 7px*/
   float: left;
   padding: 12px; /*espacio de los gutters*/
 }
